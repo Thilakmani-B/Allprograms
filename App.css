@@ -1,0 +1,78 @@
+.App{
+  background-color:#f0f0f0;
+  font-family: monospace;
+  color:black;
+}
+h1{
+font-weight: bolder;
+text-align:center;
+}
+h3{
+  font-weight: bolder;
+  text-align:justify;
+  }
+#description{
+  font-size: 15px;
+  text-align: justify;
+  margin:20px;
+  padding: 10px;
+}
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color:white;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+  padding:70px 10px 70px 10px;
+  margin:0px auto;
+  background:white;
+  color:black;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+.posts:hover{
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+@keyframes animation1{
+  from{
+    rotate:0deg;
+  }
+  to{
+    rotate:360deg;
+  }
+}
+.rotateanim{
+  animation-name:animation1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+}
+.about{
+  background-image: url('/assets/images/bg.jpg');
+}
+.navbar-dark{
+  background-color: blueviolet;
+}
+@media(min-width:768px)
+{
+  .col{
+    width:100%
+  }
+}
